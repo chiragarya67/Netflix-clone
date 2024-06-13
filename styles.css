@@ -1,0 +1,316 @@
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+ body{
+  background-color: black;
+ }
+ .main{
+    background-image: url(netflix_background.jpg);
+    height: 90vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1200px 100vw); /*zoom when 100vw screen */
+  
+ }
+  .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top:0;
+  }
+   nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+   }
+   nav img{
+
+    position: relative;
+    z-index: 10;
+   }
+   nav button{
+    position: relative;
+    z-index: 10;
+   }
+   .hero{
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    height: 81.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px; 
+    padding: 0 30px;
+   
+   }
+   .hero> :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+   }
+   .hero> :nth-child(2){
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+   }
+   .hero> :nth-child(3){
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+   }
+
+   .sepration{
+    height: 7px;
+    background-color: rgb(35,35,35);
+   }
+   .btn{
+    padding: 3px 8px;
+    font-weight: bolder;
+    }
+
+    .btn-en{
+      color: white;
+    padding: 4px 20px;
+    font-weight: bolder;
+    border: 1px solid;
+    border-radius: 3px;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+    }
+    .btn-red{
+    background-color: rgb(207, 12, 12);
+    color: white; 
+    font-size: 20px;
+    padding: 3px 24px; 
+    border-radius: 5px; 
+    border:1px solid rgb(207, 12, 12);  
+    }
+    .hero-buttons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:3px;
+    }
+
+    .btn-red-sn{
+    background-color: rgb(207, 12, 12);
+    color: white;
+    padding:4px 6px;
+    border-radius: 3px;
+    border:1px solid rgb(207, 12, 12);
+    
+    }
+    
+    .main input{
+     font-size: 16px;
+     padding: 6px 101px 6px 7px; 
+     font-weight: 900;
+     border:1px solid;
+     border-radius: 5px;  
+     background: rgba(22, 22, 22, 0.7);
+     border-color: rgba(128, 128, 128, 0.7);
+    }
+
+    .first{
+      display: flex;
+      justify-content: center;
+      max-width: 70vw;
+      margin: auto;
+      color: white;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .secimg{
+      position: relative;
+      
+    }
+
+    .secimg img{
+      width: 30vw;
+      position: relative;
+      z-index: 10;
+      right: -4px;
+      top:6px;
+      
+      
+    }
+
+    .secimg video{
+      position: absolute;
+      width: 26vw;
+      top: 51px;
+      right:0;
+     
+      
+    }
+
+    .first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+  }
+  .first > div :nth-child(2){
+    font-size: 24px;
+    
+  }
+  .sepration-2{
+    height: 7px;
+    background-color: rgb(35,35,35);
+    position: relative;
+    top:29px;
+   }
+
+  .secimg-2 {
+    display: flex;
+  }
+  .secimg-2 img{
+    position: relative;
+    top: 37px;
+    width: 479px;
+  }
+  .seconnd{
+    position: relative;
+    top:13vh;
+    
+  }
+   .sec-3 img{
+    width: 34vw;
+    position: relative;
+    z-index: 10;
+    right: -4px;
+    top: 51px;
+   }
+  
+   .sec-3 video{
+    position: relative;
+    width: 21vw;
+    left: 101px;
+    bottom: 295px;
+   }
+   .thirdd{
+    position: relative;
+    bottom: 70px;
+   }
+   .sepration-3{
+    height: 7px;
+    background-color: rgb(35,35,35);
+    position: relative;
+    bottom: 130px;
+   }
+   .secimg-3 {
+    display: flex;
+    
+  }
+   .secimg-3 img{
+    position: relative;
+    bottom: 100px;
+    width: 479px;
+  }
+  .sepration-4{
+    height: 7px;
+    background-color: rgb(35,35,35);
+    position: relative;
+    bottom: 30px;
+  }
+  .faq h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+  } 
+   .faq-box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px; 
+    padding: 0 30px;
+    top:10px
+   }
+    
+   .box1:hover{
+    background-color: rgb(71, 70, 70);
+   }
+
+  .box1{
+    width: 75vw;
+    height: 3vh;
+    background-color: rgb(43, 42, 42);
+    padding:30px;
+    color: white;
+    
+  }
+  .last{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 10px 10px 0px;
+  }
+   .email{
+    font-size: 16px;
+    padding: 6px 101px 6px 7px;
+    font-weight: 900;
+    border: 1px solid;
+    border-radius: 5px;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+   }
+   .sepration-5{
+    height: 7px;
+    background-color: rgb(35,35,35);
+    margin-top: 40px;
+   }
+   .foot-panel2{
+    
+    color: white;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+   
+  }
+  ul{
+    margin-top: 20px;
+  }
+  ul a{
+    display: block;  /*for single line*/
+    font-size:0.85rem;
+    margin-top: 10px;
+    color: rgba(255,255,255,0.7);
+    font-weight: 500;
+  }
+  .que p{
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    left: 195px;
+    top: 22px;
+
+  }
+   .button-last :first-child{
+      position: relative;
+      left: 195px;
+      bottom: 141px;
+  
+   }
+   .button-last :nth-child(2) {
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    left: 107px;
+    bottom: 100px;
+
+   }
