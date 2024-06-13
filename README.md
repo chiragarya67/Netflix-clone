@@ -18,4 +18,4 @@ Explore the live demo [here](https://www.linkedin.com/posts/chirag-a-79382a302_f
 ## Contact
 - **Chirag Arya**
 - **Email:** chiragarya5678@gmail.com
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)
+- **GitHub:** [github.com/yourusername](https://github.com/chiragarya67)
